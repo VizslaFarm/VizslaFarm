@@ -1,0 +1,20 @@
+{
+  "short_name": "PancakeSwap",
+  "name": "PancakeSwap",
+  "homepage_url": "https://vizslaswap.com",
+  "farmpage_url": "https://vizslaswap.com/farms",
+  "poolspage_url": "https://vizslaswap.com/pools/all",
+  "description": "",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
