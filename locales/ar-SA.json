@@ -6,7 +6,7 @@
   "Docs": "الوثائق",
   "Voting": "التصويت",
   "Lottery": "اليانصيب",
-  "Unlock Wallet": "فتح المحفظة",
+  "Connect Wallet": "ربط محفظة",
   "Your %asset% Balance": "رصيدك من %asset%",
   "Total %asset% Supply": "إجمالي المعروض من %asset%",
   "Locked": "مجمَّد",
@@ -41,7 +41,8 @@
   "Finished": "انتهى",
   "Farming ends in %num% Blocks": "ستنتهي الزراعة بعد %num% من الكتل",
   "Project site": "موقع المشروع",
-  "Info site": "موقع المعلومات",
+  "Project Site": "موقع المشروع",
+  "See Token Info": "عرض معلومات الرمز المميز",
   "You can unstake at any time.": "يمكنك فك الرهن في أي وقت.",
   "Rewards are calculated per block.": "يتم حساب المكافآت لكل كتلة.",
   "Total": "الإجمالي",
@@ -87,7 +88,7 @@
   "Round 2: CLAIMING": "الجولة الثانية: المطالبة",
   "Pending Confirmation": "بانتظار التأكيد",
   "Approx. time before next lottery start": "الوقت المتبقي تقريبًا قبل سحب اليانصيب التالي",
-  "Approve CAKE": "الموافقة على CAKE",
+  "Enable CAKE": "تمكين CAKE",
   "IFO: Initial Farm Offerings": "IFO: العرض الأولي للمزرعة",
   "Buy new tokens with a brand new token sale model.": "يمكنك شراء رموز مميزة جديدة من خلال نموذج جديد تمامًا لبيع الرموز المميزة.",
   "You’ll pay for the new tokens using CAKE-BNB LP tokens, which means you need to stake equal amounts of CAKE and BNB in a liquidity pool to take part.": "ستدفع ثمن الرموز المميزة الجديدة باستخدام رموز CAKE-BNB LP المميزة، ما يعني أنك بحاجة إلى رهن كميات متساوية من CAKE وBNB في تجمُّعٍ للسيولة من أجل المشاركة.",
@@ -117,7 +118,6 @@
   "Collect Winnings": "تحصيل الأرباح",
   "Buy Tickets": "شراء التذاكر",
   "Harvest": "الحصاد",
-  "Approve": "الاعتماد",
   "Select": "الاختيار",
   "Winning Numbers This Round": "الأرقام الفائزة في هذه الجولة",
   "Winning numbers": "الأرقام الفائزة",
@@ -206,6 +206,7 @@
   "Next IFO": "IFO التالي",
   "Past IFOs": "عروض IFO السابقة",
   "APR": "APR (معدل الفائدة السنوية المئوية)",
+  "APR (incl. LP rewards)": "معدل الفائدة السنوية المئوية (متضمنة مكافآت LP)",
   "Select lottery number:": "اختيار رقم اليانصيب:",
   "Search": "البحث",
   "History": "السجل",
@@ -216,7 +217,7 @@
   "Prize Pot": "الجائزة",
   "Winners": "الفائزون",
   "No. Matched": "الأرقام المطابقة",
-  "Approve Contract": "اعتماد العقد",
+  "Enable Contract": "تمكين العقد",
   "%asset% staked": "%asset% المرهونة",
   "Total Value Locked": "إجمالي القيمة المجمَّدة",
   "Across all LPs and Syrup Pools": "عبر كل تجمُّعات LP وSyrup",
@@ -237,9 +238,8 @@
   "Choose wisely: you can only ever make one starter collectible!": "اختر بحكمة: لا يمكنك إنشاء أكثر من عنصر أولي قابل للتحصيل على الإطلاق!",
   "Cost: 5 CAKE": "التكلفة: 5 CAKE",
   "Next Step": "الخطوة التالية",
-  "Approving": "جارٍ الاعتماد",
   "Confirming": "جارٍ التأكيد...",
-  "Approved": "تم الاعتماد",
+  "Enabled": "قيد التمكين",
   "Confirmed": "تم التأكيد",
   "Insufficient CAKE balance": "رصيد CAKE غير كافٍ",
   "Step 2": "الخطوة الثانية",
@@ -269,7 +269,9 @@
   "ROI": "ROI (العائد على الاستثمار)",
   "Timeframe": "الفترة الزمنية",
   "CAKE per $1000": "CAKE لكل 1000 دولار",
-  "Calculated based on current rates. Compounding %freq%x daily. Rates are estimates provided for your convenience only, and by no means represent guaranteed returns.": "يتم حسابه بناءً على الأسعار الحالية. التجميع %freq%x يوميًا. الأسعار عبارة تقديرات مقدَّمة للتسهيل عليك فقط، ولا تمثِّل بأي شكلٍ من الأشكال عائدات مضمونة.",
+  "Calculated based on current rates.": "تستند في حسابها إلى الأسعار الحالية.",
+  "Compounding %freq%x daily.": "التجميع %freq%x يوميًا.",
+  "All figures are estimates provided for your convenience only, and by no means represent guaranteed returns.": "جميع الأرقام عبارة عن تقديرات مقدَّمة للتسهيل عليك فقط، ولا تمثِّل بأي شكلٍ من الأشكال عائدات مضمونة.",
   "You can't change this once you click Confirm.": "لا يمكنك تغيير ذلك بعد النقر على \"تأكيد\".",
   "Until ticket sale": "حتى بيع التذاكر",
   "To burn:": "للحرق:",
@@ -297,7 +299,6 @@
   "Staked": "رهنت",
   "The lottery number you provided does not exist": "رقم اليانصيب الذي أدخلته غير موجود.",
   "Error fetching data": "خطأ في إحضار البيانات",
-  "Unlock wallet to access lottery": "فتح المحفظة للوصول إلى اليانصيب",
   "Teams & Profiles": "الفرق والملفات التعريفية",
   "Earn more points for completing larger quests!": "اكسب المزيد من النقاط عند إكمال المهام الأكبر!",
   "Collecting points for these tasks makes them available again.": "بعد جمع النقاط لهذه المهام، فإنها ستصبح متاحة مرة أخرى.",
@@ -321,6 +322,7 @@
   "Oops, page not found.": "عذرًا، لم يتم العثور على الصفحة.",
   "Back Home": "العودة إلى الصفحة الرئيسية",
   "Unstake LP tokens": "فك رهن رموز LP المميزة",
+  "Get ready": "استعد",
   "Live": "مباشرة",
   "Start": "بدء",
   "Finish": "إنهاء",
@@ -387,7 +389,7 @@
   "Total staked": "إجمالي الرهن",
   "Just stake some tokens to earn.": "ما عليك سوى رهن بعض الرموز المميزة للربح.",
   "High APR, low risk.": "ارتفاع معدل الفائدة السنوية المئوية، انخفاض المخاطر.",
-  "Stake Liquidity Pool (LP) tokens to earn.": "ارهن الرموز المميزة لتجمُّع السيولة للربح.",
+  "Stake LP tokens to earn.": "ارهن رموز LP المميزة للربح.",
   "Basic Sale": "عملية البيع الأساسية",
   "Everyone can only commit a limited amount, but may expect a higher return per token committed.": "يمكن للجميع تخصيص عدد محدود، وتوقُّع عائد أكبر لكل رمز مميز تم تخصيصه.",
   "Unlimited Sale": "بيع غير مقيَّد",
@@ -444,7 +446,7 @@
   "Earned since your last action": "الربح منذ آخر إجراء",
   "Commit ~%amount% LP in total to earn!": "خصِّص ~%amount% من LP إجمالًا لتربح!",
   "Learn more about %title%": "معرفة المزيد عن %title%",
-  "365d(APY)": "365 ي (النسبة المئوية للعائد السنوي)",
+  "365d (APY)": "365 ي (النسبة المئوية للعائد السنوي)",
   "%num%d": "%num%d",
   "d": "ي",
   "h": "س",
@@ -818,5 +820,502 @@
   "Total amount of %symbol% staked in this pool": "إجمالي عدد %symbol% المرهونة في هذا التجمُّع",
   "These pools are no longer distributing rewards. Please unstake your tokens.": "لقد توقفت هذه التجمُّعات عن توزيع المكافآت. يُرجى فك رهن رموزك المميزة.",
   "Max. stake per user": "أقصى رهن لكل مستخدم",
-  "You have claimed your rewards!": "You have claimed your rewards!"
+  "You have claimed your rewards!": "لقد طالبت بمكافآتك!",
+  "Already Collected": "تم تحصيلها بالفعل",
+  "Predictions Now Live": "أصبحت التنبؤات متاحة الآن",
+  "Beta Version": "إصدار تجريبي",
+  "Over %amount% in BNB won so far": "تجاوزت الأرباح %amount% من BNB حتى الآن",
+  "Try Now": "التجربة الآن",
+  "New": "جديد",
+  "LP rewards: 0.17% trading fees, distributed proportionally among LP token holders.": "مكافآت LP: رسوم تداول بنسبة 0.17%، موزَّعة نسبيًا بين حاملي رموز LP المميزة.",
+  "CAKE + Fees": "CAKE + الرسوم",
+  "Prediction Markets": "أسواق التنبؤات",
+  "Now Live": "جارية الآن",
+  "in Beta": "في الإصدار التجريبي",
+  "Ended %date%": "انتهت في %date%",
+  "Starts %date%": "ستبدأ في %date%",
+  "Ends %date%": "ستنتهي في %date%",
+  "Closed": "مغلقة",
+  "Vote Now": "التصويت الآن",
+  "Soon": "قريبًا",
+  "No proposals found": "لم يتم العثور على أي مقترحات",
+  "Creator": "المؤلف",
+  "Proposals": "المقترحات",
+  "Make a Proposal": "تقديم مقترح",
+  "Have your say in the future of the PancakeSwap Ecosystem": "عبِّر عن رأيك في مستقبل النظام البيئي لمنصة Pancakeswap",
+  "Got a suggestion?": "ألديك اقتراح؟",
+  "Community proposals are a great way to see how the community feels about your ideas.": "تُعد مقترحات المجتمع وسيلة رائعة لمعرفة شعور المجتمع تجاه أفكارك.",
+  "They won't necessarily be implemented if the community votes successful, but suggestions with a lot of community support may be made into Core proposals.": "لن يتم تنفيذها بالضرورة إذا صوَّت المجتمع بنجاحها، لكن الاقتراحات التي تتلقى دعمًا كبيرًا من المجتمع قد يتم تحويلها إلى مقترحات أساسية.",
+  "%field% is required": "الحقل %field% مطلوب",
+  "Please create a minimum of %num% choices": "يُرجى إنشاء %num% من الخيارات على الأقل",
+  "Choices must not be empty": "يجب عدم ترك الخيارات فارغة",
+  "Please select a valid date": "يُرجى تحديد تاريخ صالح",
+  "Please select a valid time": "يُرجى تحديد وقت صالح",
+  "End date must be after the start date": "يجب أن يقع تاريخ الانتهاء بعد تاريخ البدء",
+  "Invalid snapshot": "لقطة غير صالحة",
+  "Proposal created!": "تم إنشاء المقترح!",
+  "Voted": "تم التصويت",
+  "Time": "الوقت",
+  "Input choice text": "أدخل نص الخيار",
+  "Start Time": "وقت البدء",
+  "Back to Vote Overview": "العودة إلى استعراض التصويت",
+  "Voting For": "التصويت لصالح",
+  "Your Voting Power": "قوة تصويتك",
+  "Confirm Vote": "تأكيد الصوت",
+  "Add Choice": "إضافة خيار",
+  "Title": "العنوان",
+  "Content": "المحتوى",
+  "End Date": "تاريخ الانتهاء",
+  "Start Date": "تاريخ البدء",
+  "Actions": "الإجراءات",
+  "End Time": "وقت الانتهاء",
+  "Publish": "نشر",
+  "No votes found": "لا توجد أصوات",
+  "Vote Weight": "قيمة الصوت",
+  "Decision": "القرار",
+  "Voter": "المصوِّت",
+  "Votes (%count%)": "الأصوات (%count%)",
+  "Snapshot": "لقطة",
+  "Choices": "الخيارات",
+  "Unable to sign payload": "يتعذَّر توقيع البيانات الأساسية",
+  "Identifier": "المعرِّف",
+  "Current Results": "النتائج الحالية",
+  "Vote cast!": "امنح صوتك!",
+  "Are you sure you want to vote for the above choice? This action cannot be undone.": "هل تريد بالتأكيد التصويت للخيار أعلاه؟ لا يمكن التراجع عن هذا الإجراء.",
+  "Tip: write in Markdown!": "تلميح: اكتب بلغة Markdown!",
+  "Cast your vote": "منح صوتك",
+  "Preview": "معاينة",
+  "%total% Votes": "%total% صوت",
+  "Cast Vote": "منح الصوت",
+  "See All": "عرض الكل",
+  "Your voting power is determined by the amount of CAKE you held at the block detailed below. CAKE held in other places does not contribute to your voting power.": "يتم تحديد قوة تصويتك بكمية CAKE الذي احتفظت بها في الكتلة المفصَّلة أدناه. لا تساهم CAKE التي احتفظت بها في أماكن أخرى في قوة تصويتك.",
+  "Your Cake Held Now": "Cake التي تحتفظ بها الآن",
+  "Wallet": "المحفظة",
+  "Manual CAKE Pool": "تجمُّع CAKE يدوي",
+  "Auto CAKE Pool": "تجمُّع CAKE تلقائي",
+  "CAKE BNB LP": "CAKE BNB LP",
+  "Other Syrup Pools": "تجمُّعات Syrup الأخرى",
+  "Voting Power": "قوة التصويت",
+  "You need at least %count% voting power to publish a proposal.": "أنت بحاجة إلى %count% من قوة التصويت على الأقل لنشر مقترح.",
+  "Check voting power": "التحقُّق من قوة التصويت",
+  "Amount to collect": "الكمية الذي سيتم تحصيلها",
+  "Your winnings": "أرباحك",
+  "Includes your original position and your winnings, minus the %fee% fee.": "تتضمَّن مبلغ الرهان الأصلي وأرباحك مطروحًا منها الرسوم بقيمة %fee%.",
+  "Your funds have been staked in the farm": "تم رهن أموالك في المزرعة",
+  "Base APR (yield only)": "معدل الفائدة السنوية الأساسي (العائد فقط)",
+  "View/Edit Numbers": "عرض/تحرير الأرقام",
+  "Edit Numbers": "تحرير الأرقام",
+  "Total cost": "إجمالي التكلفة",
+  "Numbers are randomized, with no duplicates among your tickets. Tap a number to edit it. Available digits: 0-9": "الأرقام عشوائية، دون أي تكرارات بين تذاكرك. انقر على رقم لتحريره. الأرقام المتوفرة: 0-9",
+  "Randomize": "عشوائي",
+  "Confirm and buy": "تأكيد وشراء",
+  "Go back": "عودة للخلف",
+  "Duplicate": "تكرار",
+  "Get your tickets now!": "احصل على تذاكرك الآن!",
+  "Finished Rounds": "جولات منتهية",
+  "Only showing data for Lottery V2": "إظهار بيانات الإصدار 2 من اليانصيب فقط",
+  "Connect your wallet": "الربط بمحفظتك",
+  "to check if you've won": "للتحقق مما إذا كنت قد فازت",
+  "No prizes to collect": "لا توجد جوائز لتحصيلها",
+  "Better luck next time!": "حظ أفضل في المرة القادمة!",
+  "Why not play again": "جرب اللعب مرة أخرى",
+  "Are you a winner?": "هل أنت فائز؟",
+  "Checking": "تحقق",
+  "Check Now": "تحقق الآن",
+  "On sale soon!": "للبيع قريبًا!",
+  "Date": "التاريخ",
+  "Your Tickets": "تذاكرك",
+  "in prizes!": "في الجوائز!",
+  "Tickets on sale soon": "التذاكر المعروضة للبيع قريبًا",
+  "The PancakeSwap Lottery": "يانصيب PancakeSwap",
+  "All History": "كل السجل",
+  "Winning Number": "الرقم الفائز",
+  "You had": "كان لديك",
+  "tickets": "تذاكر",
+  "this round": "هذه الجولة",
+  "Prize pot": "الجائزة",
+  "Total players this round": "إجمالي اللاعبين في هذه الجولة",
+  "Draw": "سحب",
+  "Next Draw": "السحب التالي",
+  "Your tickets": "تذاكرك",
+  "You have": "لديك",
+  "Match the winning number in the same order to share prizes.": "مطابقة الرقم الفائز بنفس الترتيب لمشاركة الجوائز.",
+  "Current prizes up for grabs:": "الجوائز الحالية المتاحة:",
+  "Burn": "حرق",
+  "Match all %numberMatch%": "مطابقة كل %numberMatch%",
+  "Match first %numberMatch%": "مطابقة أول %numberMatch%",
+  "Matched first": "مطابَق أولًا",
+  "Drawn": "مسحوب",
+  "Connect your wallet to check your history": "اربط محفظتك للتحقق من سجلك",
+  "Buy tickets for the next round!": "شراء تذاكر للجولة التالية!",
+  "No lottery history found": "لم يتم العثور على سجل يانصيب",
+  "Contract enabled - you can now purchase tickets": "تم تمكين العقد - يمكنك الآن شراء التذاكر",
+  "Lottery tickets purchased!": "تم شراء تذاكر اليانصيب!",
+  "The maximum number of tickets you can buy in one transaction is %maxTickets%": "الحد الأقصى لعدد التذاكر التي يمكنك شراؤها في معاملة واحدة هو %maxTickets%",
+  "Bulk discount": "خصم مجمع",
+  "Buy Instantly": "شراء فوري",
+  "\"Buy Instantly\" chooses random numbers, with no duplicates among your tickets. Prices are set before each round starts, equal to $5 at that time. Purchases are final.": "يختار \"شراء فوري\" أرقامًا عشوائية، دون أي تكرارات من بين تذاكرك. يتم تعيين الأسعار قبل كل جولة تبدأ، تساوي 5 دولارات في ذلك الوقت. المشتريات نهائية.",
+  "Prizes Collected!": "تم تحصيل الجوائز!",
+  "Your CAKE prizes for round %lotteryId% have been sent to your wallet": "تم إرسال جوائز CAKE الخاصة بك للجولة %lotteryId% إلى محفظتك",
+  "Claim %claimNum% of %claimTotal% for round %lotteryId% was successful. Please confirm the next transation": "نجحت المطالبة %claimNum% من %claimTotal% للجولة %lotteryId%. يرجى تأكيد المعاملة التالية",
+  "Claiming": "مطالبة",
+  "Tickets must match the winning number in the exact same order, starting from the first digit.": "يجب أن تتطابق التذاكر مع الرقم الفائز بالترتيب نفسه بالضبط، بدءًا من الرقم الأول.",
+  "If the winning number is “123456”:": "إذا كان الرقم الفائز هو \"123456\":",
+  "“120000” matches the first 2 digits.": "فإن \"120000\" يطابق الرقمين الأولين.",
+  "“000006” matches the last digit, but since the first five digits are wrong, it doesn’t win any prizes.": "ويطابق \"000006\" الرقم الأخير، ولكن بما أن الأرقام الخمسة الأولى خاطئة، فإنه لا يفوز بأي جوائز.",
+  "Winning number": "الرقم الفائز",
+  "Total tickets": "إجمالي التذاكر",
+  "Winning tickets": "التذاكر الفائزة",
+  "until the draw": "حتى السحب",
+  "Winners announced in": "الفائزون المعلن عنهم في",
+  "Tickets on sale in": "التذاكر المعروضة للبيع في",
+  "to check if you've won!": "للتحقق مما إذا كنت قد فازت!",
+  "Why didn't I win?": "لماذا لم أفوز؟",
+  "How to Play": "كيفية اللعب",
+  "If the digits on your tickets match the winning numbers in the correct order, you win a portion of the prize pool.": "إذا تطابقت الأرقام الموجودة على تذاكرك مع الأرقام الفائزة بالترتيب الصحيح، فإنك تفوز بجزء من تجمُّع الجوائز.",
+  "Simple!": "مبسَّط!",
+  "Prices are set when the round starts, equal to 5 USD in CAKE per ticket.": "يتم تعيين الأسعار عند بدء الجولة، بما يساوي 5 دولارات أمريكية في CAKE لكل تذكرة.",
+  "Wait for the Draw": "انتظر السحب",
+  "There are two draws every day: one every 12 hours.": "هناك سحبان كل يوم: سحب كل 12 ساعة.",
+  "Check for Prizes": "تحقق من الجوائز",
+  "Once the round’s over, come back to the page and check to see if you’ve won!": "بمجرد انتهاء الجولة، عُد إلى الصفحة وتحقق لمعرفة ما إذا كنت قد فازت!",
+  "Step %number%": "الخطوة %number%",
+  "Winning Criteria": "معايير الفوز",
+  "The digits on your ticket must match in the correct order to win.": "يجب تطابُق الأرقام الموجودة على تذكرتك بالترتيب الصحيح للفوز.",
+  "Here’s an example lottery draw, with two tickets, A and B.": "إليك مثال على سحب يانصيب، بتذكرتين، \"أ\" و\"ب\".",
+  "Ticket A: The first 3 digits and the last 2 digits match, but the 4th digit is wrong, so this ticket only wins a “Match first 3” prize.": "التذكرة أ: تطابق أول 3 أرقام وآخر رقمين، ولكن الرقم الرابع خاطئ، لذلك هذه التذكرة لا تفوز إلا بجائزة \"مطابقة أول 3\".",
+  "A": "أ",
+  "Ticket B: Even though the last 5 digits match, the first digit is wrong, so this ticket doesn’t win a prize.": "التذكرة ب: على الرغم من تطابق آخر 5 أرقام، إلا أن الرقم الأول خاطئ، لذلك هذه التذكرة لا تفوز بجائزة.",
+  "B": "ب",
+  "Prize Funds": "أموال الجائزة",
+  "The prizes for each lottery round come from three sources:": "تأتي جوائز كل جولة يانصيب من ثلاثة مصادر:",
+  "Ticket Purchases": "شراء التذاكر",
+  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100% من CAKE التي يدفعها الأشخاص الذين يشترون التذاكر في هذه الجولة تعود إلى تجمُّعات الجوائز.",
+  "Rollover Prizes": "جوائز إعادة الاستغلال",
+  "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "بعد كل جولة، إذا لم يفز أحد في أحد أقواس الجائزة، فإن CAKE غير المطالب بها لهذا القوس يعاد استغلاله في الجولة التالية ويعاد توزيعها بين تجمُّعات الجائزة.",
+  "CAKE Injections": "عمليات إضافة CAKE",
+  "10,000 CAKE from the treasury is added to a lottery round every other day. This CAKE is of course also included in rollovers! Read more in our guide to ": "يتم إضافة 10,000 CAKE من الخزينة إلى جولة اليانصيب بين يوم وآخر. ويتم تضمين CAKE هذه بالطبع أيضًا في عمليات إعادة الاستغلال! اقرأ المزيد في دليلنا من أجل ",
+  "CAKE Tokenomics": "موضوع فهم خصائص العرض والطلب للعملات المشفرة (Tokenomics) لـ CAKE",
+  "Digits matched": "تمت مطابقة الأرقام",
+  "Prize pool allocation": "تخصيص تجمُّع الجوائز",
+  "Matches first %digits%": "تطابق أول %digits%",
+  "Matches all 6": "تطابق كل 6",
+  "Burn Pool": "تجمُّع احتراق",
+  "Still got questions?": "هل لا تزال لديك أسئلة؟",
+  "Check our in-depth guide on": "تحقق من دليلنا المتعمق في",
+  "how to play the PancakeSwap lottery!": "كيفية لعب يانصيب PancakeSwap!",
+  "Prize brackets don’t ‘stack’: if you match the first 3 digits in order, you’ll only win prizes from the ‘Match 3’ bracket, and not from ‘Match 1’ and ‘Match 2’.": "أقواس الجائزة لا ‘تكدس’: إذا قمت بمطابقة أول 3 أرقام بالترتيب، فلن تفوز إلا بجوائز من قوس ‘المطابقة 3’، وليس من ‘المطابقة 1’ و‘المطابقة 2’.",
+  "Coming soon!": "قريبًا!",
+  "Tickets": "التذاكر",
+  "Edit numbers": "تحرير الأرقام",
+  "each": "كل",
+  "Collect Prizes": "تحصيل الجوائز",
+  "You won": "لقد ربحت",
+  "Calculating rewards": "حساب المكافآت",
+  "Buying multiple tickets in a single transaction gives a discount. The discount increases in a linear way, up to the maximum of 100 tickets:": "يتم تقديم خصم عند شراء تذاكر متعددة في معاملة واحدة. ويزيد الخصم بطريقة خطية، بحد أقصى 100 تذكرة:",
+  "2 tickets: 0.05%": "تذكرتان: 0.05%",
+  "50 tickets: 2.45%": "50 تذكرة: 2.45%",
+  "100 tickets: 4.95%": "100 تذكرة: 4.95%",
+  "You pay": "أنت تدفع",
+  "Lottery Now Live": "اليانصيب جارية الآن",
+  "Play Now": "لعب الآن",
+  "Over %amount% in Prizes!": "أكثر من %amount% في الجوائز!",
+  "Next Auction": "المزاد التالي",
+  "Auction Schedule": "جدول المزاد",
+  "%numHours% hours": "%numHours% من الساعات",
+  "To be announced": "سوف يتم الإعلان عنه",
+  "Auction Leaderboard": "لوحة صدارة المزاد",
+  "How does it work?": "كيف يعمل؟",
+  "Step 1: Submit application": "الخطوة 1: تقديم الطلب",
+  "Projects can submit an application to sponsor a yield farm and/or pool on PancakeSwap via the ": "يمكن للمشاريع تقديم طلب لرعاية مزرعة عائد و/أو تجمُّع في PancakeSwap عبر ",
+  "Application Form": "نموذج الطلب",
+  "Step 2: Await whitelisting": "الخطوة 2: انتظار الإدراج في القائمة البيضاء",
+  "The PancakeSwap team will try to respond within a week.": "وسيحاول فريق PancakeSwap الرد خلال أسبوع.",
+  "Community Farm qualifiers will be asked to provide the address of the wallet which you’ll use for bidding CAKE in the auction.": "سيطلب من المؤهلين في مزرعة المجتمع تقديم عنوان المحفظة التي ستستخدمها لتقديم عطاءات CAKE في المزاد.",
+  "Core Farm/Pool qualifiers will receive further directions separately.": "ستحصل تصفيات التجمُّع/المزرعة الأساسية على مزيد من التوجيهات بشكل منفصل.",
+  "Step 3: During the auction": "الخطوة 3: أثناء المزاد",
+  "During the auction period, if you connect your project’s whitelisted wallet to the Auction page, you’ll see a “Place Bid” button during when the auction is live.": "خلال فترة المزاد، إذا قمت بربط محفظة مشروعك المدرجة بالقائمة البيضاء بصفحة المزاد، فسترى زر \"مكان العطاء\" عندما يكون المزاد جاريًا.",
+  "You can then commit CAKE to bid during the auction, competing against other project for one of the available farms.": "يمكنك بعد ذلك إلزام CAKE بتقديم عطاءات أثناء المزاد، والتنافس ضد مشروع آخر لإحدى المزارع المتاحة.",
+  "Step 4: After the auction": "الخطوة 4: بعد المزاد",
+  "If your bid was not successful, you can reclaim your CAKE on this page.": "إذا لم يكن العطاء الخاص بك ناجحًا، يمكنك استرداد CAKE الخاص بك في هذه الصفحة.",
+  "If your bid was successful, your farm will begin at the specified time. The CAKE you bid will not be returned to you and will be added to our weekly CAKE burn.": "في حال نجاح عطاءك، ستبدأ مزرعتك في الوقت المحدد. ولن يتم إرجاع CAKE الذي قدمت عليه عطاء إليك وسيتم إضافته إلى احتراق CAKE الأسبوعي الخاص بك.",
+  "So long as you are whitelisted, you’ll be able to participate in each new auction.": "وما دمت مدرجًا في القائمة البيضاء، ستتمكن من المشاركة في كل مزاد جديد.",
+  "If two or more projects bid the exact same CAKE amount and are contending for a spot in the winning bidders, their bids may be invalidated.": "إذا قدم مشروعان أو أكثر نفس مبلغ CAKE بالضبط وكانت المشروعات تتنافس على مكان في مقدمي العطاءات الفائزين، فقد يتم إبطال عطاءاتهم.",
+  "Community Farm Auction": "مزاد مزرعة المجتمع",
+  "Each week, qualifying projects can bid CAKE for the right to host a 7-day Farm on PancakeSwap.": "كل أسبوع، يمكن للمشاريع المؤهلة تقديم عطاء CAKE لحق استضافة مزرعة لمدة 7 أيام في PancakeSwap.",
+  "Apply for a Farm/Pool": "تقديم طلب لمزرعة/تجمُّع",
+  "Community Auctions": "مزادات المجتمع",
+  "FAQs": "الأسئلة المتداولة",
+  "Auction duration": "مدة المزاد",
+  "Terms & Conditions": "البنود والشروط",
+  "in Prizes!": "في الجوائز!",
+  "Output is estimated. If the price changes by more than %slippage%% your transaction will revert.": "يتم تقدير الإخراج. وفي حالة تغيير السعر بنسبة تزيد على %slippage%%، فسيتم رد معاملتك.",
+  "Supplying %amountA% %symbolA% and %amountB% %symbolB%": "توريد %amountA% %symbolA% و%amountB% %symbolB%",
+  "Removing %amountA% %symbolA% and %amountB% %symbolB%": "إزالة %amountA% %symbolA% و%amountB% %symbolB%",
+  "Swapping %amountA% %symbolA% for %amountB% %symbolB%": "مبادلة %amountA% %symbolA% لـ %amountB% %symbolB%",
+  "Add Liquidity": "إضافة سيولة",
+  "Add liquidity to receive LP tokens": "أضف سيولة للحصول على رموز LP المميزة",
+  "Liquidity providers earn a 0.17% trading fee on all trades made for that token pair, proportional to their share of the liquidity pool.": "يحصل مقدمو السيولة على رسوم تداول بنسبة 0.17% على جميع التداولات التي تمت لزوج الرموز المميزة هذا، بما يتناسب مع حصتهم في تجمُّع السيولة.",
+  "You are creating a pool": "أنت تنشئ تجمعًا",
+  "You are the first liquidity provider.": "أنت أول موفِّر للسيولة.",
+  "The ratio of tokens you add will set the price of this pool.": "ستحدِّد نسبة الرموز المميزة التي تضيفها سعر هذا التجمُّع.",
+  "Once you are happy with the rate click supply to review.": "عندما تكون راضيًا عن السعر، انقر على \"توريد\" للمراجعة.",
+  "Initial prices and pool share": "الأسعار الأولية والحصة في التجمُّع",
+  "Prices and pool share": "الأسعار والحصة في التجمُّع",
+  "Unsupported Asset": "أصل غير مدعوم",
+  "Enabling %asset%": "جارٍ تمكين %asset%",
+  "Enable %asset%": "تمكين %asset%",
+  "Share of Pool": "الحصة في التجمُّع",
+  "%assetA% per %assetB%": "%assetA% لكل %assetB%",
+  "%asset% Deposited": "%asset% مودَع",
+  "Rates": "الأسعار",
+  "Create Pool & Supply": "إنشاء تجمُّع وتوريد",
+  "Confirm Supply": "تأكيد التوريد",
+  "Confirm Swap": "تأكيد المبادلة",
+  "Connect to a wallet to view your liquidity.": "قم بالربط بمحفظه لعرض سيولتك.",
+  "Connect to a wallet to find pools": "قم بالربط بمحفظة للعثور على تجمُّعات",
+  "Select a token to find your liquidity.": "حدد رمزًا مميزًا للعثور على سيولتك.",
+  "No liquidity found.": "لا توجد سيولة متوفرة.",
+  "Don't see a pool you joined?": "ألا ترى أي تجمُّع انضممت إليه؟",
+  "Find other LP tokens": "العثور على رموز LP مميزة أخرى",
+  "Import Pool": "استيراد التجمُّع",
+  "Import an existing pool": "استيراد تجمُّع موجود",
+  "Select a Token": "تحديد رمز مميز",
+  "Pool Found!": "تم العثور على التجمُّع!",
+  "No pool found.": "لم يتم العثور على تجمُّع.",
+  "Create pool.": "إنشاء تجمُّع.",
+  "Manage this pool.": "إدارة هذا التجمُّع.",
+  "Invalid pair.": "زوج غير صالح.",
+  "You don’t have liquidity in this pool yet.": "ليس لديك سيولة في هذا التجمُّع بعد.",
+  "%assetA%/%assetB% Burned": "%assetA%/%assetB% محترق",
+  "Price": "السعر",
+  "Prices": "الأسعار",
+  "Remove %assetA%-%assetB% liquidity": "إزالة سيولة %assetA%-%assetB%",
+  "Amount": "المبلغ",
+  "Simple": "مبسَّط",
+  "Detailed": "مفصَّل",
+  "Receive WBNB": "تلقي WBNB",
+  "Receive BNB": "تلقي BNB",
+  "Remove": "إزالة",
+  "Input": "إدخال",
+  "Output": "إخراج",
+  "Trade tokens in an instant": "تداول الرموز المميزة في لحظات",
+  "From (estimated)": "من (مقدَّر)",
+  "From": "من",
+  "To (estimated)": "إلى (مقدَّر)",
+  "To": "إلى",
+  "+ Add a send (optional)": "+ إضافة إرسال (اختياري)",
+  "- Remove send": "- إزالة الإرسال",
+  "Slippage Tolerance": "درجة تقبُّل تذبذب السعر",
+  "Insufficient liquidity for this trade.": "سيولة غير كافية لهذا التداول.",
+  "Try enabling multi-hop trades.": "حاول تمكين التداولات متعددة القفزات.",
+  "Price Impact High": "تأثير السعر مرتفع",
+  "Swap": "مبادلة",
+  "Swap Anyway": "مبادلة على أي حال",
+  "Recent Transactions": "المعاملات الحديثة",
+  "clear all": "مسح الكل",
+  "Clear all": "مسح الكل",
+  "No recent transactions": "لا توجد معاملات حديثة",
+  "Are you sure?": "هل أنت متأكد؟",
+  "Expert mode turns off the 'Confirm' transaction prompt, and allows high slippage trades that often result in bad rates and lost funds.": "يعمل وضع الخبير على إيقاف تشغيل مطالبة المعاملة 'تأكيد'، ويسمح بتداولات بتذبذب سعر مرتفع والتي غالبًا ما تؤدي إلى أسعار سيئة وأموال ضائعة.",
+  "Only use this mode if you know what you’re doing.": "لا تستخدم هذا الوضع إلا إذا كنت تعرف ما تقوم به.",
+  "Turn On Expert Mode": "تشغيل وضع الخبير",
+  "Transaction Settings": "إعدادات المعاملة",
+  "Interface Settings": "إعدادات الواجهة",
+  "Toggle Expert Mode": "تبديل وضع الخبير",
+  "Bypasses confirmation modals and allows high slippage trades. Use at your own risk.": "قم بتخطي نماذج التأكيد والسماح بتداولات بتذبذب سعر مرتفع. استخدمه على مسؤوليتك الشخصية.",
+  "Disable Multihops": "تعطيل القفزات المتعددة",
+  "Restricts swaps to direct pairs only.": "تقييد المبادلات على الأزواج المباشرة فقط.",
+  "Audio": "صوت",
+  "🐰 Turn down your volume a bit before you swap": "🐰 اخفض مستوى الصوت لديك قليلًا قبل المبادلة",
+  "Your transaction will revert if the price changes unfavorably by more than this percentage.": "سيتم رد معاملتك إذا تغيَّر السعر بشكلٍ غير مواتٍ بأكثر من هذه النسبة المئوية.",
+  "Enter a valid slippage percentage": "أدخل نسبة صالحة لتذبذب السعر",
+  "Your transaction may fail": "قد تفشل معاملتك",
+  "Your transaction may be frontrun": "قد تكون معاملتك عبارة عن تداول مسبق",
+  "Your transaction will revert if it is pending for more than this long.": "سيتم رد معاملتك إذا ظلت معلَّقة لأكثر من هذه المدة.",
+  "minutes": "دقائق",
+  "Token Amount": "مبلغ الرمز المميز",
+  "Balance: %amount%": "الرصيد: %amount%",
+  "LP tokens in your wallet": "رموز LP المميزة في محفظتك",
+  "Pooled %asset%": "%asset% متجمع",
+  "By adding liquidity you'll earn 0.17% of all trades on this pair proportional to your share of the pool. Fees are added to the pool, accrue in real time and can be claimed by withdrawing your liquidity.": "من خلال إضافة سيولة ستكسب 0.17% من جميع التداولات على هذا الزوج بما يتناسب مع حصتك من التجمُّع. وتتم إضافة الرسوم إلى التجمُّع، وتتراكم في الوقت الفعلي ويمكن المطالبة بها من خلال سحب السيولة الخاصة بك.",
+  "Common bases": "الأسس المشتركة",
+  "These tokens are commonly paired with other tokens.": "تقترن هذه الرموز المميزة عادةً مع رموز مميزة أخرى.",
+  "Expanded results from inactive Token Lists": "النتائج الموسعة من قوائم الرموز المميزة غير النشطة",
+  "Tokens from inactive lists. Import specific tokens below or click 'Manage' to activate more lists.": "الرموز المميزة من القوائم غير النشطة. قم باستيراد رموز مميزة محددة أدناه أو انقر فوق 'إدارة' لتنشيط المزيد من القوائم.",
+  "No results found.": "لم يتم العثور على نتائج.",
+  "Manage": "إدارة",
+  "Manage Tokens": "إدارة الرموز المميزة",
+  "Import Tokens": "استيراد الرموز المميزة",
+  "Import List": "قائمة الاستيراد",
+  "Import at your own risk": "استيراد على مسؤوليتك الخاصة",
+  "By adding this list you are implicitly trusting that the data is correct. Anyone can create a list, including creating fake versions of existing lists and lists that claim to represent projects that do not have one.": "من خلال إضافة هذه القائمة، فأنت تثق ضمنيًا في أن البيانات صحيحة. ويمكن لأي شخص إنشاء قائمة، بما في ذلك إنشاء إصدارات وهمية من القوائم الموجودة والقوائم التي تدعي أنها تمثل مشروعات ليس لها مشروع واحد.",
+  "If you purchase a token from this list, you may not be able to sell it back.": "إذا اشتريت رمزًا مميزًا من هذه القائمة، فقد لا تتمكن من إعادة بيعه.",
+  "Import": "استيراد",
+  "via": "عبر",
+  "Anyone can create a BEP20 token on BSC with any name, including creating fake versions of existing tokens and tokens that claim to represent projects that do not have a token.": "يمكن لأي شخص إنشاء رمز BEP20 المميز على BSC باستخدام أي اسم، بما في ذلك إنشاء نسخ مزيفة من الرموز المميزة الحالية والرموز المميزة التي تدَّعي تمثيلها لمشاريع ليس لديها رمز مميز.",
+  "If you purchase an arbitrary token, you may be unable to sell it back.": "إذا اشتريت رمزًا مميزًا عشوائيًا، فقد لا تتمكن من إعادة بيعه.",
+  "Unknown Source": "مصدر غير معروف",
+  "Lists": "القوائم",
+  "See": "راجع",
+  "Update list": "تحديث القائمة",
+  "https:// or ipfs:// or ENS name": "https:// أو ipfs:// أو اسم ENS",
+  "Loaded": "تم التحميل",
+  "Loading": "جارٍ التحميل",
+  "Enter valid token address": "أدخل عنوان رمز مميز صالحًا",
+  "Custom Token": "رمز مميز مخصص",
+  "Custom Tokens": "رموز مميزة مخصصة",
+  "Unknown Error": "خطأ غير معروف",
+  "Select a currency": "تحديد عملة",
+  "Search name or paste address": "البحث عن اسم أو لصق العنوان",
+  "Add %asset% to Metamask": "إضافة %asset% إلى Metamask",
+  "Added %asset%": "%asset% مضاف",
+  "Transaction Submitted": "تم تقديم المعاملة",
+  "Wallet Address or ENS name": "عنوان المحفظة أو اسم ENS",
+  "Recipient": "المستلم",
+  "Waiting For Confirmation": "في انتظار التأكيد",
+  "Confirm this transaction in your wallet": "تأكيد هذه المعاملة في محفظتك",
+  "Dismiss": "تجاهل",
+  "Latest": "الأحدث",
+  "Notice for trading %symbol%": "إشعار للتداول %symbol%",
+  "To trade SAFEMOON, you must:": "لتداول SAFEMOON، يجب عليك:",
+  "Click on the settings icon": "النقر فوق رمز الإعدادات",
+  "Set your slippage tolerance to 12%+": "تعيين درجة تقبُّل تذبذب السعر إلى 12%+",
+  "This is because SafeMoon taxes a 10% fee on each transaction:": "هذا لأن SafeMoon تفرض ضرائب برسوم 10% على كل معاملة:",
+  "5% fee = redistributed to all existing holders": "رسوم 5% = معاد توزيعها على جميع الحاملين الموجودين",
+  "5% fee = used to add liquidity": "رسوم 5% = تُستخدم لإضافة السيولة",
+  "Warning: BONDLY has been compromised. Please remove liqudity until further notice.": "تحذير: أصبح BONDLY مخترقًا. يرجى إزالة السيولة حتى إشعار آخر.",
+  "Claimed": "تمت المطالبة به",
+  "Settings": "الإعدادات",
+  "Transaction deadline": "الموعد النهائي للمعاملة",
+  "Convert ERC-20 to BEP-20": "تحويل ERC-20 إلى BEP-20",
+  "Need help ?": "هل تحتاج إلى مساعدة؟",
+  "Select a token": "تحديد رمز مميز",
+  "Enter a recipient": "أدخل المستلم",
+  "Invalid recipient": "المستلم غير صالح",
+  "Supply": "الإمداد",
+  "Your Liquidity": "السيولة الخاصة بك",
+  "Remove liquidity to receive tokens back": "أزل السيولة لاستلام الرموز المميزة",
+  "Trade anything. No registration, no hassle.": "تداول أي شيء. بدون تسجيل، بدون مشكلات.",
+  "Trade any token on Binance Smart Chain in seconds, just by connecting your wallet.": "تداول أي رمز على Binance Smart Chain في ثوان، من خلال ربط محفظتك.",
+  "Learn": "تعلم",
+  "BNB token": "رمز BNB",
+  "CAKE token": "رمز CAKE",
+  "BTC token": "رمز BTC",
+  "Earn passive income with crypto.": "اربح دخلاً سالبًا مع العملة المشفرة.",
+  "PancakeSwap makes it easy to make your crypto work for you.": "يُسهل PancakeSwap عليك الاستفادة من عملتك المشفرة.",
+  "Explore": "اكتشف",
+  "Pie chart": "تخطيط دائري",
+  "Stocks chart": "تخطيط الأسهم",
+  "Folder with cake token": "مجلد يتضمن رموز Cake",
+  "CAKE makes our world go round.": "CAKE يجعل العجلة تدور في عالمنا.",
+  "CAKE token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!": "يمثل رمز CAKE جوهر نظام PancakeSwap البنائي. يمكنك شرائه وربحه وزراعته وإنفاقه ورهنه... بل حتى يمكنك التصويت باستخدامه!",
+  "Small 3d pancake": "وحدة Pancake صغيرة ثلاثية الأبعاد",
+  "%cakePrizeInUsd% in CAKE prizes this round": "%cakePrizeInUsd% في صورة جوائز CAKE في هذه الجولة",
+  "Buy tickets with CAKE, win CAKE if your numbers match": "اشتر التذاكر باستخدام CAKE، واربح CAKE في حالة تطابق الأرقام",
+  "$%bnbWonInUsd% in BNB won so far": "$%bnbWonInUsd% في صورة BNB تم ربحها حتى الآن",
+  "Will BNB price rise or fall? guess correctly to win!": "هل سيرتفع سعر BNB أم سينخفض؟ قم بالتخمين بشكل صحيح للفوز!",
+  "And those users are now entrusting the platform with over $%tvl% in funds.": "وهؤلاء المستخدمون الآن يودعون في المنصة أكثر من $%tvl% في صورة أموال.",
+  "Trusted with billions.": "يثق بها الملايين.",
+  "PancakeSwap has the most users of any decentralized platform, ever.": "PancakeSwap تضم عددًا من المستخدمين أكثر من أي منصة غير مركزية حتى الآن.",
+  "Will you join them?": "هل ستنضم إليهم؟",
+  "$%tvl% staked": "$%tvl% تم رهنها",
+  "The moon is made of pancakes.": "القمر مصنوع من الفطائر.",
+  "Trade, earn, and win crypto on the most popular decentralized platform in the galaxy.": "تداول العملة المشفرة واربحها واكسبها على أشهر منصة غير مركزية في المجرة.",
+  "Lunar bunny": "الأرنب القمري",
+  "Total supply": "إجمالي التوريد",
+  "Burned to date": "المحترق حتى تاريخه",
+  "Market cap": "الحد السوقي",
+  "Current emissions": "الانبعاثات الحالية",
+  "$%marketCap%": "$%marketCap%",
+  "%cakeEmissions%/block": "كتلة %cakeEmissions%/",
+  "%earningsBusd% to collect from %count% %farms%": "%earningsBusd% للتحصيل من %count% %farms%",
+  "Harvest all": "حصاد الكل",
+  "Start in seconds.": "يبدأ في ثوانٍ.",
+  "Used by millions.": "يستخدمها الملايين.",
+  "Hi, %userName%!": "مرحبًا، %userName%!",
+  "Play": "لعب",
+  "Connected with %address%": "متصل بـ %address%",
+  "Win millions in prizes": "اربح ملايين الجوائز",
+  "%users% users": "%users% مستخدم",
+  "Connect your crypto wallet to start using the app in seconds.": "اربط محفظة عملتك المشفرة لبدء استخدام التطبيق في ثوانٍ.",
+  "in the last 30 days": "في آخر 30 يومًا",
+  "No registration needed.": "لا يلزم التسجيل.",
+  "Learn how to start": "تعلم كيفية البدء",
+  "%trades% trades": "%trades% عملية تداول",
+  "Provably fair, on-chain games.": "ألعاب عادلة بشكل مثبت في السلسلة.",
+  "made in the last 30 days": "تمت في آخر 30 يومًا",
+  "Win big with PancakeSwap.": "اربح الكثير مع PancakeSwap.",
+  "Copied": "منسوخ",
+  "Make a Profile": "إنشاء ملف شخصي",
+  "Your Address": "عنوانك",
+  "Your Wallet": "محفظتك",
+  "Transactions": "المعاملات",
+  "BNB Balance Low": "رصيد BNB منخفض",
+  "BNB Balance": "رصيد BNB",
+  "CAKE Balance": "رصيد CAKE",
+  "You need BNB for transaction fees.": "تحتاج إلى BNB لرسوم المعاملة.",
+  "Disconnect": "قطع الاتصال",
+  "Disconnect Wallet": "قطع اتصال المحفظة",
+  "Ending in": "ينتهي في",
+  "Next auction": "المزاد التالي",
+  "Contract approved - you can now place your bid!": "تم اعتماد العقد - يمكنك الآن تقديم عطاءك!",
+  "Contract approved - you can now reclaim your bid!": "تم اعتماد العقد - يمكنك الآن استرداد عطاءك!",
+  "Bid placed!": "تم تقديم العطاء!",
+  "Bid reclaimed!": "تم استرداد العطاء!",
+  "Reclaim Bid": "استرداد العطاء",
+  "Place a Bid": "تقديم عطاء",
+  "Reclaim your CAKE now.": "استرد CAKE الخاص بك الآن.",
+  "Your total bid": "إجمالي عطاءك",
+  "Your bid in Auction #%auctionId% was unsuccessful.": "تم تقديم عطاءك في المزاد #%auctionId% بنجاح.",
+  "Current Auction": "المزاد الحالي",
+  "Farm schedule": "جدول المزرعة",
+  "Farm duration": "مدة المزرعة",
+  "%num% days": "%num% من الأيام",
+  "Only whitelisted project wallets can bid in the auction to create Community Farms.": "يمكن فقط لمحافظ المشاريع المدرجة بالقائمة البيضاء تقديم عطاء في المزاد لإنشاء مزارع المجتمع.",
+  "Bidding is only possible while the auction is live.": "يكون تقديم العطاء ممكنًا فقط أثناء سريان المزاد.",
+  "If you’re sure your project should be able to bid in this auction, make sure you’re connected with the correct (whitelisted) wallet.": "إذا كنت متأكدًا من أن مشروعك يجب أن يكون بإمكانه تقديم عطاء في هذا المزاد، فتأكد من أنك متصل بالمحفظة (المدرجة بالقائمة البيضاء) الصحيحة.",
+  "Why cant I bid for a farm?": "لماذا لا يمكنني تقديم عطاء لمزرعة؟",
+  "Archive": "الأرشيف",
+  "Auction #": "رقم المزاد",
+  "Auction #%auctionId%": "المزاد #%auctionId%",
+  "LP Info": "معلومات LP",
+  "Bidder Address": "عنوان مقدم العطاء",
+  "Top %num% bidders at the end of the auction will successfully create a community farm.": "أفضل %num% من مقدمي العطاءات في نهاية المزاد سوف يتمكنون من إنشاء مزرعة مجتمع بنشاط.",
+  "Position": "المركز",
+  "CAKE bid": "عطاء CAKE",
+  "Showing top 10 bids only.": "إظهار أفضل 10 عطاءات فقط.",
+  "See all whitelisted bidders": "عرض جميع مقدمي العطاءات المدرجين بالقائمة البيضاء",
+  "Your existing bid": "العطاء الموجود الخاص بك",
+  "Bid a multiple of 10": "تقديم عطاء لمضاعف 10",
+  "Bid must be a multiple of 10": "يجب أن يكون العطاء مضاعفًا لـ 10",
+  "First bid must be %initialBidAmount% CAKE or more.": "العطاء الأول يجب أن يكون %initialBidAmount% من CAKE أو أكثر.",
+  "If your bid is unsuccessful, you’ll be able to reclaim your CAKE after the auction.": "إذا كان عطاءك غير ناجح، فسوف تتمكن من استرداد CAKE الخاص بك بعد المزاد.",
+  "Notice": "إشعار",
+  "This page is a functional page, for projects to bid for farms.": "هذه صفحة وظيفية، للمشروعات للمزايدة للمزارع.",
+  "If you’re not a whitelisted project, you won’t be able to participate, but you can still view the auction bids in real time!": "إذا لم تكن تمثل مشروعًا مدرجًا بالقائمة البيضاء، فلن تتمكن من المشاركة، ولكن ما يزال بإمكانك عرض عطاءات المزاد آنيًا!",
+  "Connect a whitelisted project wallet to participate in Auctions.": "اربط محفظة المشروع المدرج بالقائمة البيضاء للمشاركة في المزادات.",
+  "Your bid in Auction #%auctionId% was successful.": "عطاءك في المزاد #%auctionId% تكلل بالنجاح.",
+  "Your Farm will be launched as follows:": "يتم إطلاق مزرعتك كالتالي:",
+  "Multiplier per farm": "المضاعف لكل مزرعة",
+  "Total whitelisted bidders": "إجمالي مقدمي العطاءات المدرجين بالقائمة البيضاء",
+  "Please specify auction ID": "يُرجى تحديد معرف المزاد الخاص بك",
+  "No history yet": "لا يوجد محفوظات حتى الآن",
+  "Connected as %projectName%": "متصل باسم %projectName%",
+  "Place bid": "تقديم عطاء",
+  "Farms available": "المزارع المتوفرة",
+  "top %num% bidders": "أفضل %num% من مقدمي العطاءات",
+  "All Whitelisted Project Wallets": "جميع محافظ المشروع المدرجة بالقائمة البيضاء",
+  "Search address or token": "بحث عن عنوان أو رمز",
+  "This page is for projects to bid for farms.": "هذه الصفحة لمشروعات تقديم عطاءات للمزارع.",
+  "If you’re not a whitelisted project, you won’t be able to participate, but you can still view what’s going on!": "إذا لم تكن ضمن مشروع مدرج بالقائمة البيضاء، فلا يمكنك المشاركة، ولكن ما يزال بإمكانك مشاهدة ماذا يحدث!",
+  "through community auctions so far!": "عن طريق مزادات المجتمع حتى الآن!",
+  "5 Winners": "5 فائزين",
+  "20 Contenders...": "20 متنافس...",
+  "Farm Auctions": "مزادات المزرعة",
+  "auction bunny": "أرنب المزاد",
+  "Burnt CAKE": "CAKE محترقة",
+  "Stake %stakingSymbol% - Earn %earningSymbol%": "Stake %stakingSymbol% - Earn %earningSymbol%",
+  "Top Farms": "Top Farms",
+  "Top Syrup Pools": "Top Syrup Pools"
 }
